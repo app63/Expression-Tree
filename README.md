@@ -1,4 +1,4 @@
-'''
+' ' '
 1.  The purpose of the exercise is to practice building and traversing an expression
 tree; so I want you to build a tree to hold the expression, and to evaluate the expression
 by traversing the tree.  you have to build the expression tree, then traverse it to evaluate
@@ -24,4 +24,4 @@ rule.
 operator precedence:  3*5+4 is interpreted as (3*5)+4 rather than 3*(5+4).
 associativity rule:  3-5-4 is interpreted as 3-(5-4) rather than (3-5)-4.
 
-'''
+' ' '
