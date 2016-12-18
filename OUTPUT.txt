@@ -1,0 +1,25 @@
+
+
+bash-3.2$ ls
+ExpressionTree$1.class          ExpressionTree.java             Prefixer.class                  README.md
+ExpressionTree$TreeNode.class   PrefixCalc.class                Prefixer.java                   test.txt
+ExpressionTree.class            PrefixCalc.java                 Program3.sh
+bash-3.2$ ./Program3.sh
+(- (+ 27 (/ (+ 9 '2') 4)) '3')
+Please enter the above expression below with brackets
+Prefix expression, with all elements separated by blanks
+- + 27 / + 9 2 4 3
+
+Input as prefix expression:
+- + 27.0 / + 9.0 2.0 4.0 3.0
+
+Input as postfix expression:
+27.0 9.0 2.0 + 4.0 / + 3.0 -
+
+Input as parenthesized infix expression:
+( ( 27.0 + ( ( 9.0 + 2.0 ) / 4.0 ) ) - 3.0 )
+
+Value:  26.75
+Press <Enter> to exit:
+bash-3.2$
+
